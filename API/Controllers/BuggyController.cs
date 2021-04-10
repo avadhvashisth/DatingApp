@@ -41,5 +41,11 @@ namespace API.Controllers
         {
             return BadRequest();
         }
+
+        [HttpGet("test")]
+        public ActionResult<string> testMethod(int p1, int p2)
+        {
+            return Ok($"{p1}--{p2}");
+        }
     }
 }
