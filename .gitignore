@@ -445,4 +445,3 @@ $RECYCLE.BIN/
 appsettings.json
 API/datingapp.db
 client/ssl/*
-API/wwwroot/*
